@@ -69,7 +69,7 @@ class Distance implements DistanceCalculator {
     ///         new LatLng(52.518611,13.408056),new LatLng(51.519475,7.46694444));
     ///
     num as(final LengthUnit unit,final LatLng p1, final LatLng p2) {
-        final double dist = _calculator.distance(p1,p2);
+        final double dist = _calculator.distance(p1,p2) as double;
         return _round(LengthUnit.Meter.to(unit,dist));
     }
 
@@ -78,7 +78,7 @@ class Distance implements DistanceCalculator {
     /// The function uses the [DistanceAlgorithm] specified in the CTOR
     @override
     num distance(final LatLng p1, final LatLng p2)
-        => _round(_calculator.distance(p1,p2));
+        => _round(_calculator.distance(p1,p2) as double);
 
     /// Returns the great circle bearing (direction) in degrees to the next point ([p2])
     ///

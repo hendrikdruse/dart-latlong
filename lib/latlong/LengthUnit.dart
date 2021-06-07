@@ -32,7 +32,7 @@ class LengthUnit {
 
     double to(final LengthUnit unit,final num value) {
         if(unit.scaleFactor == scaleFactor) {
-            return value;
+            return value as double;
         }
 
         // Convert to primary unit.

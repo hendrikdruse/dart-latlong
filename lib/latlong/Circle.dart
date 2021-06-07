@@ -49,7 +49,7 @@ class Circle {
 
         final Distance distance = new Distance(calculator: _calculator);
 
-        final double dist = distance(center, point);
+        final double dist = distance(center, point) as double;
         return dist <= radius;
     }
 

@@ -4,17 +4,14 @@ author: Mike Mitterer <office@mikemitterer.at>
 homepage: https://github.com/MikeMitterer/dart-latlong
 
 version: 0.6.1
+publish_to: none
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  logging: '>=0.11.3 <1.0.0'
-  console_log_handler: '>=1.1.0 <2.0.0'
-    # git: git@github.com:MikeMitterer/dart-console_log_handler.git
-    # path: /Volumes/Daten/DevLocal/DevDart/ConsoleLogHandler
-
-  validate: ^1.0.0
+  validate:
+    git: git@github.com:hendrikdruse/dart-validate.git
 
   intl: '>=0.15.0 <1.0.0'
 
