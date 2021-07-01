@@ -497,7 +497,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: "0d28d3d3377a9c6c71d0097b650ce72299167759"
-      url: "https://github.com/hendrikdruse/dart-validate.git"
+      url: "https://github.com/hendrikdruse/dart-validate"
     source: git
     version: "1.7.0"
   vm_service:
