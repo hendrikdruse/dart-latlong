@@ -11,7 +11,7 @@ environment:
 
 dependencies:
   validate:
-    git: https://github.com/hendrikdruse/dart-validate.git
+    git: https://github.com/hendrikdruse/dart-validate
 
   intl: '>=0.15.0 <1.0.0'
 
